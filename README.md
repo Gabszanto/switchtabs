@@ -10,6 +10,4 @@ Or
 - Use Alt + the keyboard arrows (←, →, ↑, ↓)
 - or click with the mouse cursor to select tabs directly.
 
-Tweak as you see you want.
-
 Enjoy!
