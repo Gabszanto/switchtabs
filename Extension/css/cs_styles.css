@@ -1,0 +1,98 @@
+/*Tab Switch CSS*/
+
+{
+  font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.tab-switcher-container * {
+   -webkit-box-sizing: border-box !important;
+   -moz-box-sizing: border-box !important;
+   box-sizing: border-box !important;
+   border: none !important;
+   margin: 0 !important;
+   padding: 0 !important;
+   filter: none !important;
+}
+
+
+#tab-switcher-popup {
+   z-index: 100000 !important;
+}
+
+#tab-switcher-popup-overlay {
+   z-index: 99999 !important;
+   position: fixed !important;
+   top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+   transform: none !important;
+   background-color: rgba(0,0,0,0.5);
+   /*background-color: rgba(0,0,0,0.6);*/
+}
+
+.tab-switcher-container {
+   filter: none !important;
+   padding: 10px !important;
+   /*padding: 15px !important;*/
+   margin: auto !important;
+   position: fixed !important;
+   z-index: 100000 !important;
+
+   background: rgba(215, 215, 220, 0.9) !important;
+    border-radius: 10px !important;
+   border-style: dashed !important;
+   border-color: transparent !important;
+   border-width: 2px;
+   box-sizing: border-box !important;
+   
+   top: 50% !important;
+   left: 50% !important;
+  transform: translateX(-50%) translateY(-50%) !important;
+}
+
+.tab-switcher-container .tab-card {
+   display: inline-block !important;
+   vertical-align: top !important;
+   position: relative !important;
+}
+
+.tab-switcher-container .tab-card .tab-favicon {
+   width: 15px;
+   height: 15px;
+   /*width: 32px;*/
+   /*height: 32px;*/
+   position: absolute !important;
+}
+
+.tab-switcher-container .tab-card .tab-preview-wrapper {
+   padding: 15px !important;
+   border-radius: 10px !important;
+   display: inline-block !important;
+}
+
+.tab-switcher-container .tab-card .tab-preview-wrapper .tab-preview {
+   background-color: transparent!important;
+   display: inline-block !important;
+   border-radius: 5px !important;
+   position: relative !important;
+}
+
+.tab-switcher-container .tab-card .tab-title {
+   white-space: nowrap !important;
+   overflow: hidden !important;
+   text-overflow: ellipsis !important;
+   color: black !important;
+   font-size: 14px !important;
+   text-align: center !important;
+   font-family: 'Roboto', sans-serif !important;
+   padding-top: 4px !important;
+   visibility: hidden !important;
+}
+
+.tab-switcher-container .tab-card.tab-card-active .tab-preview-wrapper {
+   background-color: rgba(120, 120, 120, 0.4) !important;
+}
+
+.tab-switcher-container .tab-card.tab-card-active .tab-title {
+   visibility: visible !important;
+}
+

@@ -1,0 +1,1 @@
+window.tabSwticherActions={captureScreen:"captureScreen",triggerSwitchTabCommand:"triggerSwitchTabCommand",getTabsInfo:"getTabsInfo",switchTab:"switchTab",popupIsShown:"popupIsShown",popupIsHidden:"popupIsHidden"};

@@ -1,0 +1,1 @@
+function convertImgToDataURLviaCanvas(a,b,c){var d=new Image;d.crossOrigin="Anonymous",d.onload=function(){var e,a=document.createElement("CANVAS"),d=a.getContext("2d");a.height=this.height,a.width=this.width,d.drawImage(this,0,0),e=a.toDataURL(c),b(e),a=null},d.src=a}
